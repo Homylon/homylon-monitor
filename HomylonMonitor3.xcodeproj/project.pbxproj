@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1D05AE46D2576E2FBD7317B /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB61BE959CD21CAF1C81C /* Preferences.swift */; };
+		D473D7DE2A29B35C00AFD7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7DD2A29B35C00AFD7A3 /* AppDelegate.swift */; };
+		D473D7E02A29B35C00AFD7A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7DF2A29B35C00AFD7A3 /* SceneDelegate.swift */; };
+		D473D7E22A29B35C00AFD7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7E12A29B35C00AFD7A3 /* ViewController.swift */; };
+		D473D7E52A29B35C00AFD7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D473D7E32A29B35C00AFD7A3 /* Main.storyboard */; };
+		D473D7E72A29B35E00AFD7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D473D7E62A29B35E00AFD7A3 /* Assets.xcassets */; };
+		D473D7EA2A29B35E00AFD7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D473D7E82A29B35E00AFD7A3 /* LaunchScreen.storyboard */; };
+		D473D7F62A29D7A600AFD7A3 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F52A29D7A600AFD7A3 /* Processor.swift */; };
+		D473D7F82A29D7B400AFD7A3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F72A29D7B400AFD7A3 /* Helper.swift */; };
+		D473D7FA2A29D7BE00AFD7A3 /* Public extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F92A29D7BE00AFD7A3 /* Public extensions.swift */; };
+		D473D7FE2A2A264300AFD7A3 /* MultiColumnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D473D7FD2A2A264300AFD7A3 /* MultiColumnTableViewCell.xib */; };
+		D4C7BFC12A94FB110053B231 /* MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7BFC02A94FB110053B231 /* MatrixView.swift */; };
+		D4C7C0042A94FF080053B231 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7C0032A94FF080053B231 /* UIViewExtensions.swift */; };
+		E1A000022EC3000100A1B2C3 /* MonitorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000012EC3000100A1B2C3 /* MonitorLink.swift */; };
+		E1A000042EC3000100A1B2C3 /* PreferencesPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000032EC3000100A1B2C3 /* PreferencesPopup.swift */; };
+		E1A000082EC3000100A1B2C3 /* HomylonKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1A000072EC3000100A1B2C3 /* HomylonKit */; };
+		E1A000112EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000102EC3000100A1B2C3 /* MonitorMessageStyle.swift */; };
+		E1A000122EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000102EC3000100A1B2C3 /* MonitorMessageStyle.swift */; };
+		E1A0001D2EC3000100A1B2C3 /* HomylonKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1A0001C2EC3000100A1B2C3 /* HomylonKit */; };
+		E1A000212EC3000100A1B2C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000202EC3000100A1B2C3 /* main.swift */; };
+		E1A000232EC3000100A1B2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000222EC3000100A1B2C3 /* AppDelegate.swift */; };
+		E1A000252EC3000100A1B2C3 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000242EC3000100A1B2C3 /* MonitorViewController.swift */; };
+		E1A000272EC3000100A1B2C3 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000262EC3000100A1B2C3 /* SettingsSheet.swift */; };
+		E1A000292EC3000100A1B2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A000282EC3000100A1B2C3 /* Assets.xcassets */; };
+		E1A000302EC3000100A1B2C3 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F52A29D7A600AFD7A3 /* Processor.swift */; };
+		E1A000312EC3000100A1B2C3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F72A29D7B400AFD7A3 /* Helper.swift */; };
+		E1A000322EC3000100A1B2C3 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB61BE959CD21CAF1C81C /* Preferences.swift */; };
+		E1A000332EC3000100A1B2C3 /* Public extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F92A29D7BE00AFD7A3 /* Public extensions.swift */; };
+		E1A000342EC3000100A1B2C3 /* MonitorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000012EC3000100A1B2C3 /* MonitorLink.swift */; };
+		E1A0004A2EC3000100A1B2C3 /* HomylonKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1A000492EC3000100A1B2C3 /* HomylonKit */; };
+		E1A000512EC3000100A1B2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000502EC3000100A1B2C3 /* AppDelegate.swift */; };
+		E1A000532EC3000100A1B2C3 /* MonitorTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000522EC3000100A1B2C3 /* MonitorTVViewController.swift */; };
+		E1A000602EC3000100A1B2C3 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F52A29D7A600AFD7A3 /* Processor.swift */; };
+		E1A000612EC3000100A1B2C3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F72A29D7B400AFD7A3 /* Helper.swift */; };
+		E1A000622EC3000100A1B2C3 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEB61BE959CD21CAF1C81C /* Preferences.swift */; };
+		E1A000632EC3000100A1B2C3 /* Public extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473D7F92A29D7BE00AFD7A3 /* Public extensions.swift */; };
+		E1A000642EC3000100A1B2C3 /* MonitorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000012EC3000100A1B2C3 /* MonitorLink.swift */; };
+		E1A000652EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000102EC3000100A1B2C3 /* MonitorMessageStyle.swift */; };
+		E1A000662EC3000100A1B2C3 /* PreferencesPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A000032EC3000100A1B2C3 /* PreferencesPopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62FEB61BE959CD21CAF1C81C /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		D473D7DA2A29B35C00AFD7A3 /* HomylonMonitor3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomylonMonitor3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473D7DD2A29B35C00AFD7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D473D7DF2A29B35C00AFD7A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D473D7E12A29B35C00AFD7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D473D7E42A29B35C00AFD7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D473D7E62A29B35E00AFD7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D473D7E92A29B35E00AFD7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D473D7EB2A29B35E00AFD7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D473D7F52A29D7A600AFD7A3 /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		D473D7F72A29D7B400AFD7A3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D473D7F92A29D7BE00AFD7A3 /* Public extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Public extensions.swift"; sourceTree = "<group>"; };
+		D473D7FD2A2A264300AFD7A3 /* MultiColumnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiColumnTableViewCell.xib; sourceTree = "<group>"; };
+		D4C7BFC02A94FB110053B231 /* MatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixView.swift; sourceTree = "<group>"; };
+		D4C7C0032A94FF080053B231 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		E1A000012EC3000100A1B2C3 /* MonitorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorLink.swift; sourceTree = "<group>"; };
+		E1A000032EC3000100A1B2C3 /* PreferencesPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesPopup.swift; sourceTree = "<group>"; };
+		E1A000102EC3000100A1B2C3 /* MonitorMessageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorMessageStyle.swift; sourceTree = "<group>"; };
+		E1A000142EC3000100A1B2C3 /* Homylon Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homylon Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A000202EC3000100A1B2C3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E1A000222EC3000100A1B2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1A000242EC3000100A1B2C3 /* MonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
+		E1A000262EC3000100A1B2C3 /* SettingsSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		E1A000282EC3000100A1B2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A0002A2EC3000100A1B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A000412EC3000100A1B2C3 /* Homylon Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homylon Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A0004B2EC3000100A1B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A000502EC3000100A1B2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1A000522EC3000100A1B2C3 /* MonitorTVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorTVViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D473D7D72A29B35C00AFD7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A000082EC3000100A1B2C3 /* HomylonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000172EC3000100A1B2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0001D2EC3000100A1B2C3 /* HomylonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000442EC3000100A1B2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0004A2EC3000100A1B2C3 /* HomylonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D473D7D12A29B35C00AFD7A3 = {
+			isa = PBXGroup;
+			children = (
+				E1A000052EC3000100A1B2C3 /* Shared */,
+				D473D7DC2A29B35C00AFD7A3 /* HomylonMonitor3 */,
+				E1A000132EC3000100A1B2C3 /* macOS */,
+				E1A000402EC3000100A1B2C3 /* tvOS */,
+				D473D7DB2A29B35C00AFD7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D473D7DB2A29B35C00AFD7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D473D7DA2A29B35C00AFD7A3 /* HomylonMonitor3.app */,
+				E1A000142EC3000100A1B2C3 /* Homylon Monitor.app */,
+				E1A000412EC3000100A1B2C3 /* Homylon Monitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D473D7DC2A29B35C00AFD7A3 /* HomylonMonitor3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7BFC02A94FB110053B231 /* MatrixView.swift */,
+				D473D7DD2A29B35C00AFD7A3 /* AppDelegate.swift */,
+				D473D7E12A29B35C00AFD7A3 /* ViewController.swift */,
+				D473D7E32A29B35C00AFD7A3 /* Main.storyboard */,
+				D473D7FD2A2A264300AFD7A3 /* MultiColumnTableViewCell.xib */,
+				D473D7E62A29B35E00AFD7A3 /* Assets.xcassets */,
+				D473D7E82A29B35E00AFD7A3 /* LaunchScreen.storyboard */,
+				D473D7EB2A29B35E00AFD7A3 /* Info.plist */,
+				D4C7C0032A94FF080053B231 /* UIViewExtensions.swift */,
+				D473D7DF2A29B35C00AFD7A3 /* SceneDelegate.swift */,
+				E1A000032EC3000100A1B2C3 /* PreferencesPopup.swift */,
+			);
+			path = HomylonMonitor3;
+			sourceTree = "<group>";
+		};
+		E1A000052EC3000100A1B2C3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E1A000012EC3000100A1B2C3 /* MonitorLink.swift */,
+				E1A000102EC3000100A1B2C3 /* MonitorMessageStyle.swift */,
+				D473D7F72A29D7B400AFD7A3 /* Helper.swift */,
+				62FEB61BE959CD21CAF1C81C /* Preferences.swift */,
+				D473D7F52A29D7A600AFD7A3 /* Processor.swift */,
+				D473D7F92A29D7BE00AFD7A3 /* Public extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E1A000132EC3000100A1B2C3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1A000202EC3000100A1B2C3 /* main.swift */,
+				E1A000222EC3000100A1B2C3 /* AppDelegate.swift */,
+				E1A000242EC3000100A1B2C3 /* MonitorViewController.swift */,
+				E1A000262EC3000100A1B2C3 /* SettingsSheet.swift */,
+				E1A000282EC3000100A1B2C3 /* Assets.xcassets */,
+				E1A0002A2EC3000100A1B2C3 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E1A000402EC3000100A1B2C3 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1A000502EC3000100A1B2C3 /* AppDelegate.swift */,
+				E1A000522EC3000100A1B2C3 /* MonitorTVViewController.swift */,
+				E1A0004B2EC3000100A1B2C3 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D473D7D92A29B35C00AFD7A3 /* HomylonMonitor3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D473D7EE2A29B35E00AFD7A3 /* Build configuration list for PBXNativeTarget "HomylonMonitor3" */;
+			buildPhases = (
+				D473D7D62A29B35C00AFD7A3 /* Sources */,
+				D473D7D72A29B35C00AFD7A3 /* Frameworks */,
+				D473D7D82A29B35C00AFD7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomylonMonitor3;
+			packageProductDependencies = (
+				E1A000072EC3000100A1B2C3 /* HomylonKit */,
+			);
+			productName = HomylonMonitor3;
+			productReference = D473D7DA2A29B35C00AFD7A3 /* HomylonMonitor3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A000152EC3000100A1B2C3 /* HomylonMonitorMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A000192EC3000100A1B2C3 /* Build configuration list for PBXNativeTarget "HomylonMonitorMac" */;
+			buildPhases = (
+				E1A000162EC3000100A1B2C3 /* Sources */,
+				E1A000172EC3000100A1B2C3 /* Frameworks */,
+				E1A000182EC3000100A1B2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomylonMonitorMac;
+			packageProductDependencies = (
+				E1A0001C2EC3000100A1B2C3 /* HomylonKit */,
+			);
+			productName = HomylonMonitorMac;
+			productReference = E1A000142EC3000100A1B2C3 /* Homylon Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A000422EC3000100A1B2C3 /* HomylonMonitorTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A000462EC3000100A1B2C3 /* Build configuration list for PBXNativeTarget "HomylonMonitorTV" */;
+			buildPhases = (
+				E1A000432EC3000100A1B2C3 /* Sources */,
+				E1A000442EC3000100A1B2C3 /* Frameworks */,
+				E1A000452EC3000100A1B2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomylonMonitorTV;
+			packageProductDependencies = (
+				E1A000492EC3000100A1B2C3 /* HomylonKit */,
+			);
+			productName = HomylonMonitorTV;
+			productReference = E1A000412EC3000100A1B2C3 /* Homylon Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D473D7D22A29B35C00AFD7A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rob Ista";
+				TargetAttributes = {
+					D473D7D92A29B35C00AFD7A3 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1430;
+					};
+					E1A000152EC3000100A1B2C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E1A000422EC3000100A1B2C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D473D7D52A29B35C00AFD7A3 /* Build configuration list for PBXProject "HomylonMonitor3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D473D7D12A29B35C00AFD7A3;
+			packageReferences = (
+				E1A000062EC3000100A1B2C3 /* XCRemoteSwiftPackageReference "homylon-kit-swift" */,
+			);
+			productRefGroup = D473D7DB2A29B35C00AFD7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D473D7D92A29B35C00AFD7A3 /* HomylonMonitor3 */,
+				E1A000152EC3000100A1B2C3 /* HomylonMonitorMac */,
+				E1A000422EC3000100A1B2C3 /* HomylonMonitorTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D473D7D82A29B35C00AFD7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473D7EA2A29B35E00AFD7A3 /* LaunchScreen.storyboard in Resources */,
+				D473D7FE2A2A264300AFD7A3 /* MultiColumnTableViewCell.xib in Resources */,
+				D473D7E72A29B35E00AFD7A3 /* Assets.xcassets in Resources */,
+				D473D7E52A29B35C00AFD7A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000182EC3000100A1B2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A000292EC3000100A1B2C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000452EC3000100A1B2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D473D7D62A29B35C00AFD7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7C0042A94FF080053B231 /* UIViewExtensions.swift in Sources */,
+				D4C7BFC12A94FB110053B231 /* MatrixView.swift in Sources */,
+				D473D7F62A29D7A600AFD7A3 /* Processor.swift in Sources */,
+				D473D7FA2A29D7BE00AFD7A3 /* Public extensions.swift in Sources */,
+				D473D7F82A29D7B400AFD7A3 /* Helper.swift in Sources */,
+				C1D05AE46D2576E2FBD7317B /* Preferences.swift in Sources */,
+				D473D7E22A29B35C00AFD7A3 /* ViewController.swift in Sources */,
+				D473D7DE2A29B35C00AFD7A3 /* AppDelegate.swift in Sources */,
+				E1A000022EC3000100A1B2C3 /* MonitorLink.swift in Sources */,
+				E1A000112EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */,
+				E1A000042EC3000100A1B2C3 /* PreferencesPopup.swift in Sources */,
+				D473D7E02A29B35C00AFD7A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000162EC3000100A1B2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A000212EC3000100A1B2C3 /* main.swift in Sources */,
+				E1A000232EC3000100A1B2C3 /* AppDelegate.swift in Sources */,
+				E1A000252EC3000100A1B2C3 /* MonitorViewController.swift in Sources */,
+				E1A000272EC3000100A1B2C3 /* SettingsSheet.swift in Sources */,
+				E1A000302EC3000100A1B2C3 /* Processor.swift in Sources */,
+				E1A000312EC3000100A1B2C3 /* Helper.swift in Sources */,
+				E1A000322EC3000100A1B2C3 /* Preferences.swift in Sources */,
+				E1A000332EC3000100A1B2C3 /* Public extensions.swift in Sources */,
+				E1A000342EC3000100A1B2C3 /* MonitorLink.swift in Sources */,
+				E1A000122EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A000432EC3000100A1B2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A000512EC3000100A1B2C3 /* AppDelegate.swift in Sources */,
+				E1A000532EC3000100A1B2C3 /* MonitorTVViewController.swift in Sources */,
+				E1A000602EC3000100A1B2C3 /* Processor.swift in Sources */,
+				E1A000612EC3000100A1B2C3 /* Helper.swift in Sources */,
+				E1A000622EC3000100A1B2C3 /* Preferences.swift in Sources */,
+				E1A000632EC3000100A1B2C3 /* Public extensions.swift in Sources */,
+				E1A000642EC3000100A1B2C3 /* MonitorLink.swift in Sources */,
+				E1A000652EC3000100A1B2C3 /* MonitorMessageStyle.swift in Sources */,
+				E1A000662EC3000100A1B2C3 /* PreferencesPopup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D473D7E32A29B35C00AFD7A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473D7E42A29B35C00AFD7A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D473D7E82A29B35E00AFD7A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473D7E92A29B35E00AFD7A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D473D7EC2A29B35E00AFD7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -disable-autolink-framework -Xfrontend SwiftUI";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D473D7ED2A29B35E00AFD7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -disable-autolink-framework -Xfrontend SwiftUI";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D473D7EF2A29B35E00AFD7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HomylonMonitor3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D473D7F02A29B35E00AFD7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HomylonMonitor3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1A0001A2EC3000100A1B2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor.macos;
+				PRODUCT_NAME = "Homylon Monitor";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1A0001B2EC3000100A1B2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor.macos;
+				PRODUCT_NAME = "Homylon Monitor";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1A000472EC3000100A1B2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor.tvos;
+				PRODUCT_NAME = "Homylon Monitor";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		E1A000482EC3000100A1B2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squixz.homylonmonitor.tvos;
+				PRODUCT_NAME = "Homylon Monitor";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D473D7D52A29B35C00AFD7A3 /* Build configuration list for PBXProject "HomylonMonitor3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473D7EC2A29B35E00AFD7A3 /* Debug */,
+				D473D7ED2A29B35E00AFD7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D473D7EE2A29B35E00AFD7A3 /* Build configuration list for PBXNativeTarget "HomylonMonitor3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473D7EF2A29B35E00AFD7A3 /* Debug */,
+				D473D7F02A29B35E00AFD7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A000192EC3000100A1B2C3 /* Build configuration list for PBXNativeTarget "HomylonMonitorMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0001A2EC3000100A1B2C3 /* Debug */,
+				E1A0001B2EC3000100A1B2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A000462EC3000100A1B2C3 /* Build configuration list for PBXNativeTarget "HomylonMonitorTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A000472EC3000100A1B2C3 /* Debug */,
+				E1A000482EC3000100A1B2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1A000062EC3000100A1B2C3 /* XCRemoteSwiftPackageReference "homylon-kit-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Homylon/homylon-kit-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1A000072EC3000100A1B2C3 /* HomylonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A000062EC3000100A1B2C3 /* XCRemoteSwiftPackageReference "homylon-kit-swift" */;
+			productName = HomylonKit;
+		};
+		E1A0001C2EC3000100A1B2C3 /* HomylonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A000062EC3000100A1B2C3 /* XCRemoteSwiftPackageReference "homylon-kit-swift" */;
+			productName = HomylonKit;
+		};
+		E1A000492EC3000100A1B2C3 /* HomylonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A000062EC3000100A1B2C3 /* XCRemoteSwiftPackageReference "homylon-kit-swift" */;
+			productName = HomylonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D473D7D22A29B35C00AFD7A3 /* Project object */;
+}

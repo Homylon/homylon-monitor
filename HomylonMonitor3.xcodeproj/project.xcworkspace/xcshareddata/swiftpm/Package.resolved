@@ -1,0 +1,15 @@
+{
+  "originHash" : "e8aeb1e32e4acee0356c5e58339cc63093d15792ea0985fc69ab0458ac5ea9c4",
+  "pins" : [
+    {
+      "identity" : "homylon-kit-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Homylon/homylon-kit-swift",
+      "state" : {
+        "revision" : "bd7850af81868750a17b842ab2c8857ad4cb6931",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
